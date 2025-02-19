@@ -1,7 +1,7 @@
 {
   "name": "refund-dashboard-yamm",
   "version": "1.0.0",
-  "homepage": "https://fatmaserry.github.io/Refund-dashboard/",
+  "homepage": "https://fatmaserry.github.io/",
   "dependencies": {
     "@react-jvectormap/core": "^1.0.4",
     "@react-jvectormap/world": "^1.1.2",
@@ -15,6 +15,7 @@
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
     "flatpickr": "^4.6.13",
+    "json-server": "^1.0.0-beta.3",
     "lucide-react": "^0.475.0",
     "postcss": "^8.4.49",
     "react": "^18.3.1",
@@ -37,6 +38,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "json-server": "json-server --watch db.json --port 5001",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
