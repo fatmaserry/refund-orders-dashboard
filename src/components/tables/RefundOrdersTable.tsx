@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import { Eye } from "lucide-react";
 
 import {
   Table,
@@ -246,13 +247,10 @@ export default function RefundOrdersTable() {
                     {/* Button to see the details of refund order */}
                     <TableCell className="px-4 py-3 text-center">
                       <button
-                        onClick={() => {
-                          console.log(order.id);
-                          navigate(`/refunds/${order.id}`);
-                        }}
-                        className="px-3 py-2 bg-purple-100 text-gray-600 rounded-md hover:bg-purple-600 hover:text-white transition"
+                        onClick={() => navigate(`/refunds/${order.id}`)}
+                        className="text-gray-600 hover:text-purple-600 transition"
                       >
-                        Details
+                        <Eye size={28} />
                       </button>
                     </TableCell>
                   </TableRow>
