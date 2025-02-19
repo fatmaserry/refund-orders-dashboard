@@ -1,6 +1,7 @@
 {
   "name": "refund-dashboard-yamm",
   "version": "1.0.0",
+  "homepage": "https://fatmaserry.github.io/Refund-dashboard/",
   "dependencies": {
     "@react-jvectormap/core": "^1.0.4",
     "@react-jvectormap/world": "^1.1.2",
@@ -34,6 +35,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -61,6 +64,7 @@
     "@types/next": "^8.0.7",
     "@types/react-flatpickr": "^3.8.11",
     "@types/react-toastify": "^4.0.2",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^3.4.15"
   }
 }
