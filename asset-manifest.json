@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Refund-dashboard/static/css/main.9ec749f9.css",
+    "main.js": "/Refund-dashboard/static/js/main.0fce5694.js",
+    "index.html": "/Refund-dashboard/index.html",
+    "main.9ec749f9.css.map": "/Refund-dashboard/static/css/main.9ec749f9.css.map",
+    "main.0fce5694.js.map": "/Refund-dashboard/static/js/main.0fce5694.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ec749f9.css",
+    "static/js/main.0fce5694.js"
+  ]
+}
