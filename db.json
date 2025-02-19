@@ -1,0 +1,400 @@
+{
+  "refunds": [
+    {
+      "id": "1",
+      "reason": "Defective product",
+      "store_name": "IKEA",
+      "store_logo": "/images/stores/store-1.webp",
+      "store_url": "https://ikea.com",
+      "amount": 129.99,
+      "active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Wireless Headphones",
+          "id": "101",
+          "price": 129.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "store_name": "Casper",
+      "store_logo": "/images/stores/store-3.webp",
+      "store_url": "https://casper.com",
+      "reason": "Wrong size pillow received",
+      "amount": 129.99,
+      "active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "id": "333",
+          "name": "Casper Foam Pillow",
+          "price": 64.99,
+          "quantity": 2
+        },
+        {
+          "id": "333",
+          "name": "Casper Foam Pillow",
+          "price": 64.99,
+          "quantity": 2
+        },
+        {
+          "id": "333",
+          "name": "Casper Foam Pillow",
+          "price": 64.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "reason": "Wrong sizes",
+      "store_name": "Decathlon",
+      "store_logo": "/images/stores/store-2.webp",
+      "store_url": "https://decathlon.com",
+      "amount": 100,
+      "active": true,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Running shoe",
+          "id": "102",
+          "price": 49.99,
+          "quantity": 1
+        },
+        {
+          "name": "Red Backbag",
+          "id": "104",
+          "price": 49.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "store_name": "Casper",
+      "store_logo": "/images/stores/store-3.webp",
+      "store_url": "https://casper.com",
+      "reason": "Mattress defect",
+      "amount": 899.99,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "id": "322",
+          "name": "Casper Original Mattress",
+          "price": 899.99,
+          "quantity": 1
+        },
+        {
+          "id": "322",
+          "name": "Casper Original Mattress",
+          "price": 899.99,
+          "quantity": 1
+        },
+        {
+          "id": "322",
+          "name": "Casper Original Mattress",
+          "price": 899.99,
+          "quantity": 1
+        },
+        {
+          "id": "322",
+          "name": "Casper Original Mattress",
+          "price": 899.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "store_name": "Casper",
+      "store_logo": "/images/stores/store-3.webp",
+      "store_url": "https://casper.com",
+      "reason": "Delayed shipping beyond promised date",
+      "amount": 349.99,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "id": "444",
+          "name": "Casper Glow Light",
+          "price": 349.99,
+          "quantity": 1
+        },
+        {
+          "id": "444",
+          "name": "Casper Glow Light",
+          "price": 349.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "store_name": "Nike",
+      "store_logo": "/images/stores/store-9.webp",
+      "store_url": "https://www.nike.com",
+      "reason": "Wrong size received",
+      "amount": 149.99,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "id": 6,
+          "name": "Nike Air Force 1",
+          "price": 149.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "store_name": "H&M",
+      "store_logo": "/images/stores/store-6.webp",
+      "store_url": "https://www.hm.com",
+      "reason": "Color mismatch",
+      "amount": 39.99,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "id": 7,
+          "name": "Cotton Hoodie",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "Cotton Hoodie",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "Cotton Hoodie",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "id": 7,
+          "name": "Cotton Hoodie",
+          "price": 39.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "store_name": "LEGO (Games)",
+      "store_logo": "/images/stores/store-7.webp",
+      "store_url": "https://www.lego.com",
+      "reason": "Missing pieces",
+      "amount": 79.99,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "id": 8,
+          "name": "LEGO Star Wars Set",
+          "price": 79.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "store_name": "Adidas",
+      "store_logo": "/images/stores/store-8.webp",
+      "store_url": "https://www.adidas.com",
+      "reason": "Damaged on arrival",
+      "amount": 89.99,
+      "active": true,
+      "decision": null,
+      "items": [
+        {
+          "id": 9,
+          "name": "Adidas Ultraboost Sneakers",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "name": "Adidas Ultraboost Sneakers",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "id": 9,
+          "name": "Adidas Ultraboost Sneakers",
+          "price": 89.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "store_name": "TEMU",
+      "store_logo": "/images/stores/store-5.webp",
+      "store_url": "https://www.temu.com",
+      "reason": "Defective electronics",
+      "amount": 19.99,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "id": 10,
+          "name": "Wireless Earbuds",
+          "price": 19.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "store_name": "Joie",
+      "store_logo": "/images/stores/store-4.webp",
+      "store_url": "https://www.joiebaby.com",
+      "reason": "Late delivery",
+      "amount": 299.99,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "id": 11,
+          "name": "Joie Baby Stroller",
+          "price": 299.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "store_name": "Nike",
+      "store_logo": "/images/stores/store-9.webp",
+      "store_url": "https://www.nike.com",
+      "reason": "Sole detached after a week",
+      "amount": 179.99,
+      "active": true,
+      "decision": "escalate",
+      "items": [
+        {
+          "id": 12,
+          "name": "Nike Running Shoes",
+          "price": 179.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "store_name": "H&M",
+      "store_logo": "/images/stores/store-6.webp",
+      "store_url": "https://www.hm.com",
+      "reason": "Stitching came loose",
+      "amount": 29.99,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "id": 13,
+          "name": "Linen Shirt",
+          "price": 29.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "store_name": "LEGO (Games)",
+      "store_logo": "/images/stores/store-7.webp",
+      "store_url": "https://www.lego.com",
+      "reason": "Wrong set delivered",
+      "amount": 99.99,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "id": 14,
+          "name": "LEGO Harry Potter Castle",
+          "price": 99.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "store_name": "Adidas",
+      "store_logo": "/images/stores/store-8.webp",
+      "store_url": "https://www.adidas.com",
+      "reason": "Didn't fit as expected",
+      "amount": 69.99,
+      "active": false,
+      "decision": "accept",
+      "items": [
+        {
+          "id": 15,
+          "name": "Adidas Sweatpants",
+          "price": 69.99,
+          "quantity": 1
+        },
+        {
+          "id": 15,
+          "name": "Adidas Sweatpants",
+          "price": 69.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "store_name": "TEMU",
+      "store_logo": "/images/stores/store-5.webp",
+      "store_url": "https://www.temu.com",
+      "reason": "Low-quality material",
+      "amount": 14.99,
+      "active": false,
+      "decision": null,
+      "items": [
+        {
+          "id": 16,
+          "name": "Temu Smartwatch",
+          "price": 14.99,
+          "quantity": 1
+        },
+        {
+          "id": 16,
+          "name": "Temu Smartwatch",
+          "price": 14.99,
+          "quantity": 1
+        },
+        {
+          "id": 16,
+          "name": "Temu Smartwatch",
+          "price": 14.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "store_name": "Joie",
+      "store_logo": "/images/stores/store-4.webp",
+      "store_url": "https://www.joiebaby.com",
+      "reason": "Wrong color received",
+      "amount": 249.99,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "id": 17,
+          "name": "Joie Car Seat",
+          "price": 249.99,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
