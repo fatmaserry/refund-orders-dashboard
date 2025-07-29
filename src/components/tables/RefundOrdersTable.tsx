@@ -183,6 +183,8 @@ export default function RefundOrdersTable() {
                         size="md"
                         endIcon={
                           <button
+                            type="button"
+                            aria-label="Change Decision"
                             onClick={() => {
                               setOpenDropdownId((prevId) =>
                                 prevId === order.id ? null : order.id
@@ -247,6 +249,8 @@ export default function RefundOrdersTable() {
                     {/* Button to see the details of refund order */}
                     <TableCell className="px-4 py-3 text-center">
                       <button
+                        type="button"
+                        aria-label="View Order Details"
                         onClick={() => navigate(`/refunds/${order.id}`)}
                         className="text-gray-600 hover:text-purple-600 transition"
                       >

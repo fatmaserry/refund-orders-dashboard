@@ -29,10 +29,7 @@ export default function DemographicCard() {
           <button onClick={toggleDropdown}>
             <MoreHorizontal className="text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" />
           </button>
-          <Dropdown
-            isOpen={isOpen}
-            className="w-40 p-2"
-          >
+          <Dropdown isOpen={isOpen} className="w-40 p-2">
             <DropdownItem
               onItemClick={closeDropdown}
               className="flex w-full font-normal text-left text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-white/5 dark:hover:text-gray-300"
@@ -48,11 +45,8 @@ export default function DemographicCard() {
           </Dropdown>
         </div>
       </div>
-      <div className="px-4 py-6 my-6 overflow-hidden border border-gary-200 rounded-2xl dark:border-gray-800 sm:px-6">
-        <div
-          id="mapOne"
-          className="mapOne map-btn -mx-4 -my-6 h-[212px] w-[252px] 2xsm:w-[307px] xsm:w-[358px] sm:-mx-6 md:w-[668px] lg:w-[634px] xl:w-[393px] 2xl:w-[554px]"
-        >
+      <div className=" my-6 overflow-hidden border border-gary-200 rounded-2xl dark:border-gray-800">
+        <div id="mapOne" className="">
           <CountryMap />
         </div>
       </div>

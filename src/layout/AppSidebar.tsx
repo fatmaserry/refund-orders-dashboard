@@ -68,6 +68,8 @@ const AppSidebar = () => {
     <>
       {/* Sidebar Toggle Button for Mobile */}
       <button
+        type="button"
+        aria-label="Toggle Sidebar"
         className="md:hidden fixed top-4 left-4 z-50 p-2 bg-gray-800 text-white rounded"
         onClick={toggleMobileSidebar}
       >
@@ -77,31 +79,18 @@ const AppSidebar = () => {
       <aside
         className={`fixed top-0 left-0 h-screen bg-white dark:bg-gray-900 dark:border-gray-800 border-r border-gray-200 transition-all duration-300 z-50 
           ${isExpanded || isHovered || isMobileOpen ? "w-[290px]" : "w-[90px]"} 
-          ${isMobileOpen ? "block" : "hidden md:block"}`}
+          ${isMobileOpen ? "block" : "hidden lg:block"}`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         <div className="py-8  px-5 flex justify-center">
           <Link to="/">
-            {isExpanded || isHovered ? (
-              isMobileOpen ? (
-                ""
-              ) : (
-                <img
-                  src="/images/logo/logo.svg"
-                  alt="Logo"
-                  width={250}
-                  height={40}
-                />
-              )
-            ) : (
-              <img
-                src="/images/logo/icon.svg"
-                alt="Logo"
-                width={32}
-                height={32}
-              />
-            )}
+            <img
+              src="/images/logo/logo.png"
+              alt="Logo"
+              width={60}
+              height={40}
+            />
           </Link>
         </div>
         <nav className="mb-6 px-5">

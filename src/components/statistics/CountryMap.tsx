@@ -20,11 +20,6 @@ const CountryMap: React.FC<CountryMapProps> = ({ mapColor }) => {
       }}
       markersSelectable={true}
       markers={[
-        {
-          latLng: [26.2833, 50.2],
-          name: "Headquarters - Al Jeser, Khobar, Eastern Region SA",
-          style: { fill: "#28A745", borderWidth: 1, borderColor: "white" },
-        },
         { latLng: [24.7136, 46.6753], name: "Saudi Arabia" },
         { latLng: [31.9522, 35.2332], name: "Palestine" },
         { latLng: [25.276987, 55.296249], name: "United Arab Emirates" },

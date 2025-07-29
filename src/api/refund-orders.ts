@@ -1,18 +1,21 @@
 import { RefundOrder } from "../types/interfaces";
 
-const API_URL = "http://localhost:5001/refunds";
+const API_URL = "https://api.jsonbin.io/v3/b/6888cc6eae596e708fbd9f8c";
 
 // Fetch all refund orders
 export const fetchRefundOrders = async (): Promise<RefundOrder[]> => {
   try {
     const response = await fetch(API_URL);
     if (!response.ok) throw new Error("Failed to fetch orders");
-    return await response.json();
+
+    const data = await response.json();
+    return data.record.refunds || [];
   } catch (error) {
     console.error("Error fetching refund orders:", error);
     return [];
   }
 };
+
 
 // Fetch a single refund order by ID
 export const fetchRefundOrderById = async (
