@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/refund-orders-dashboard/static/css/main.957d8b3e.css",
-    "main.js": "/refund-orders-dashboard/static/js/main.61f10b56.js",
+    "main.js": "/refund-orders-dashboard/static/js/main.c481b737.js",
     "index.html": "/refund-orders-dashboard/index.html",
     "main.957d8b3e.css.map": "/refund-orders-dashboard/static/css/main.957d8b3e.css.map",
-    "main.61f10b56.js.map": "/refund-orders-dashboard/static/js/main.61f10b56.js.map"
+    "main.c481b737.js.map": "/refund-orders-dashboard/static/js/main.c481b737.js.map"
   },
   "entrypoints": [
     "static/css/main.957d8b3e.css",
-    "static/js/main.61f10b56.js"
+    "static/js/main.c481b737.js"
   ]
 }
