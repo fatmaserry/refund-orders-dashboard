@@ -26,7 +26,7 @@ export default function DemographicCard() {
         </div>
 
         <div className="relative inline-block">
-          <button onClick={toggleDropdown}>
+          <button type="button" title="toggle" onClick={toggleDropdown}>
             <MoreHorizontal className="text-gray-400 hover:text-gray-700 dark:hover:text-gray-300" />
           </button>
           <Dropdown isOpen={isOpen} className="w-40 p-2">

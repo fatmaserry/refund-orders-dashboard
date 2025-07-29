@@ -4,19 +4,19 @@ import "./index.css";
 import App from "./App";
 import { ThemeProvider } from "./context/ThemeContext";
 import { AppWrapper } from "./components/common/PageMeta";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <AppWrapper>
         <ThemeProvider>
           <App />
         </ThemeProvider>
       </AppWrapper>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
