@@ -4,7 +4,7 @@
       "id": "1",
       "reason": "Defective product",
       "store_name": "IKEA",
-      "store_logo": "/images/stores/store-1.webp",
+      "store_logo": "./images/stores/store-1.webp",
       "store_url": "https://ikea.com",
       "amount": 129.99,
       "active": false,
@@ -21,7 +21,7 @@
     {
       "id": "2",
       "store_name": "Casper",
-      "store_logo": "/images/stores/store-3.webp",
+      "store_logo": "./images/stores/store-3.webp",
       "store_url": "https://casper.com",
       "reason": "Wrong size pillow received",
       "amount": 129.99,
@@ -52,7 +52,7 @@
       "id": "3",
       "reason": "Wrong sizes",
       "store_name": "Decathlon",
-      "store_logo": "/images/stores/store-2.webp",
+      "store_logo": "./images/stores/store-2.webp",
       "store_url": "https://decathlon.com",
       "amount": 100,
       "active": true,
@@ -75,7 +75,7 @@
     {
       "id": "4",
       "store_name": "Casper",
-      "store_logo": "/images/stores/store-3.webp",
+      "store_logo": "./images/stores/store-3.webp",
       "store_url": "https://casper.com",
       "reason": "Mattress defect",
       "amount": 899.99,
@@ -111,7 +111,7 @@
     {
       "id": "5",
       "store_name": "Casper",
-      "store_logo": "/images/stores/store-3.webp",
+      "store_logo": "./images/stores/store-3.webp",
       "store_url": "https://casper.com",
       "reason": "Delayed shipping beyond promised date",
       "amount": 349.99,
@@ -135,7 +135,7 @@
     {
       "id": "6",
       "store_name": "Nike",
-      "store_logo": "/images/stores/store-9.webp",
+      "store_logo": "./images/stores/store-9.webp",
       "store_url": "https://www.nike.com",
       "reason": "Wrong size received",
       "amount": 149.99,
@@ -153,7 +153,7 @@
     {
       "id": "7",
       "store_name": "H&M",
-      "store_logo": "/images/stores/store-6.webp",
+      "store_logo": "./images/stores/store-6.webp",
       "store_url": "https://www.hm.com",
       "reason": "Color mismatch",
       "amount": 39.99,
@@ -189,7 +189,7 @@
     {
       "id": "8",
       "store_name": "LEGO (Games)",
-      "store_logo": "/images/stores/store-7.webp",
+      "store_logo": "./images/stores/store-7.webp",
       "store_url": "https://www.lego.com",
       "reason": "Missing pieces",
       "amount": 79.99,
@@ -207,7 +207,7 @@
     {
       "id": "9",
       "store_name": "Adidas",
-      "store_logo": "/images/stores/store-8.webp",
+      "store_logo": "./images/stores/store-8.webp",
       "store_url": "https://www.adidas.com",
       "reason": "Damaged on arrival",
       "amount": 89.99,
@@ -237,7 +237,7 @@
     {
       "id": "10",
       "store_name": "TEMU",
-      "store_logo": "/images/stores/store-5.webp",
+      "store_logo": "./images/stores/store-5.webp",
       "store_url": "https://www.temu.com",
       "reason": "Defective electronics",
       "amount": 19.99,
@@ -255,7 +255,7 @@
     {
       "id": "11",
       "store_name": "Joie",
-      "store_logo": "/images/stores/store-4.webp",
+      "store_logo": "./images/stores/store-4.webp",
       "store_url": "https://www.joiebaby.com",
       "reason": "Late delivery",
       "amount": 299.99,
@@ -273,7 +273,7 @@
     {
       "id": "12",
       "store_name": "Nike",
-      "store_logo": "/images/stores/store-9.webp",
+      "store_logo": "./images/stores/store-9.webp",
       "store_url": "https://www.nike.com",
       "reason": "Sole detached after a week",
       "amount": 179.99,
@@ -291,7 +291,7 @@
     {
       "id": "13",
       "store_name": "H&M",
-      "store_logo": "/images/stores/store-6.webp",
+      "store_logo": "./images/stores/store-6.webp",
       "store_url": "https://www.hm.com",
       "reason": "Stitching came loose",
       "amount": 29.99,
@@ -309,7 +309,7 @@
     {
       "id": "14",
       "store_name": "LEGO (Games)",
-      "store_logo": "/images/stores/store-7.webp",
+      "store_logo": "./images/stores/store-7.webp",
       "store_url": "https://www.lego.com",
       "reason": "Wrong set delivered",
       "amount": 99.99,
@@ -327,7 +327,7 @@
     {
       "id": "15",
       "store_name": "Adidas",
-      "store_logo": "/images/stores/store-8.webp",
+      "store_logo": "./images/stores/store-8.webp",
       "store_url": "https://www.adidas.com",
       "reason": "Didn't fit as expected",
       "amount": 69.99,
@@ -351,7 +351,7 @@
     {
       "id": "16",
       "store_name": "TEMU",
-      "store_logo": "/images/stores/store-5.webp",
+      "store_logo": "./images/stores/store-5.webp",
       "store_url": "https://www.temu.com",
       "reason": "Low-quality material",
       "amount": 14.99,
@@ -381,7 +381,7 @@
     {
       "id": "17",
       "store_name": "Joie",
-      "store_logo": "/images/stores/store-4.webp",
+      "store_logo": "./images/stores/store-4.webp",
       "store_url": "https://www.joiebaby.com",
       "reason": "Wrong color received",
       "amount": 249.99,

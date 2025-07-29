@@ -86,7 +86,7 @@ const AppSidebar = () => {
         <div className="py-8  px-5 flex justify-center">
           <Link to="/">
             <img
-              src="/images/logo/logo.png"
+              src="./images/logo/logo.png"
               alt="Logo"
               width={60}
               height={40}

@@ -82,7 +82,7 @@ const AppHeader: React.FC = () => {
           </button>
 
           <Link to="/" className="lg:hidden w-8 h-10">
-            <img className="" src="/images/logo/logo.png" alt="Logo" />
+            <img className="" src="./images/logo/logo.png" alt="Logo" />
           </Link>
 
           <button
